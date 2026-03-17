@@ -1,6 +1,22 @@
-﻿namespace LocalLibrary.ViewModels;
-
-public partial class MainWindowViewModel : ViewModelBase
+﻿using LocalLibrary.Services;
+using LocalLibrary.Models;
+namespace LocalLibrary.ViewModels;
+public class MainWindowViewModel : ViewModelBase
 {
-    public string Greeting { get; } = "Welcome to Avalonia!";
+    private readonly JsonDataService dataService;
+
+    public LibraryData LibraryData { get; set; }
+
+    public MainWindowViewModel()
+    {
+        dataService = new JsonDataService();
+
+    
+        LibraryData = dataService.LoadData();
+    }
+
+    public void SaveData()
+    {
+        dataService.SaveData(LibraryData);
+    }
 }
