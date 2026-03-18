@@ -1,0 +1,49 @@
+{
+  "Username": null,
+  "Password": null,
+  "Books": [
+    {
+      "Title": "Clean Code",
+      "Author": "Robert C. Martin",
+      "ISBN": "9780132350884",
+      "Description": "A handbook of agile software craftsmanship.",
+      "IsBorrowed": false
+    },
+    {
+      "Title": "The Pragmatic Programmer",
+      "Author": "Andrew Hunt, David Thomas",
+      "ISBN": "9780135957059",
+      "Description": "Classic guide to software engineering practices.",
+      "IsBorrowed": false
+    },
+    {
+      "Title": "Refactoring",
+      "Author": "Martin Fowler",
+      "ISBN": "9780134757599",
+      "Description": "Improving the design of existing code.",
+      "IsBorrowed": true
+    }
+  ],
+  "Members": [
+    {
+      "Username": "member",
+      "Password": "member",
+      "BorrowedBooks": [
+        {
+          "Title": "Refactoring",
+          "Author": "Martin Fowler",
+          "ISBN": "9780134757599",
+          "Description": "Improving the design of existing code.",
+          "IsBorrowed": true
+        }
+      ]
+    }
+  ],
+  "Loans": [
+    {
+      "BookISBN": "9780134757599",
+      "MemberName": "member",
+      "BorrowDate": "2026-03-18T13:31:47.3209763Z"
+    }
+  ]
+}

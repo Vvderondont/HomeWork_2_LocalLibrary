@@ -1,0 +1,58 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+						 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+						 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+						 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+						 xmlns:vm="using:LocalLibrary.ViewModels"
+						 mc:Ignorable="d"
+						 d:DesignWidth="900"
+						 d:DesignHeight="520"
+						 x:Class="LocalLibrary.Views.CatalogView"
+						 x:DataType="vm:CatalogViewModel">
+
+	<Grid RowDefinitions="Auto,Auto,*,Auto,Auto" RowSpacing="12" Margin="12">
+		<TextBlock Text="Library Catalog" FontSize="24" FontWeight="Bold" />
+
+		<Grid Grid.Row="1" ColumnDefinitions="*,Auto,Auto" ColumnSpacing="8">
+			<TextBox Grid.Column="0"
+							 Watermark="Search by title, author, or ISBN"
+							 Text="{Binding SearchText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+			<Button Grid.Column="1" Content="Clear" Command="{Binding ClearSearchCommand}" />
+			<Button Grid.Column="2" Content="Refresh" Command="{Binding RefreshCatalogCommand}" />
+		</Grid>
+
+		<Grid Grid.Row="2" ColumnDefinitions="2*,3*" ColumnSpacing="12">
+			<Border BorderBrush="#D0D0D0" BorderThickness="1" CornerRadius="6" Padding="8">
+				<ListBox ItemsSource="{Binding FilteredBooks}"
+								 SelectedItem="{Binding SelectedBook, Mode=TwoWay}">
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+							<StackPanel Margin="0,0,0,8">
+								<TextBlock Text="{Binding Title}" FontWeight="SemiBold" />
+								<TextBlock Text="{Binding Author, StringFormat='Author: {0}'}" />
+								<TextBlock Text="{Binding ISBN, StringFormat='ISBN: {0}'}" />
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+			</Border>
+
+			<Border Grid.Column="1" BorderBrush="#D0D0D0" BorderThickness="1" CornerRadius="6" Padding="12">
+				<StackPanel Spacing="8">
+					<TextBlock Text="Book Details" FontSize="18" FontWeight="Bold" />
+					<TextBlock Text="{Binding SelectedBook.Title, FallbackValue='Select a book'}" FontSize="16" FontWeight="SemiBold" />
+					<TextBlock Text="{Binding SelectedBook.Author, StringFormat='Author: {0}', FallbackValue='Author: -'}" />
+					<TextBlock Text="{Binding SelectedBook.ISBN, StringFormat='ISBN: {0}', FallbackValue='ISBN: -'}" />
+					<TextBlock Text="{Binding SelectedBook.Description, FallbackValue='No description.'}" TextWrapping="Wrap" />
+				</StackPanel>
+			</Border>
+		</Grid>
+
+		<Button Grid.Row="3"
+						HorizontalAlignment="Left"
+						Padding="16,8"
+						Content="Borrow Selected"
+						Command="{Binding BorrowSelectedBookCommand}" />
+
+		<TextBlock Grid.Row="4" Text="{Binding StatusMessage}" />
+	</Grid>
+</UserControl>

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj": {}
+    "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj": {
+    "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
         "projectName": "LocalLibrary",
-        "projectPath": "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
-        "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
+        "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\valer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

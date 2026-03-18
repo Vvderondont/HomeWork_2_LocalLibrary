@@ -4,6 +4,11 @@ namespace LocalLibrary.ViewModels;
 public class MainWindowViewModel : ViewModelBase
 {
     private readonly JsonDataService dataService;
+    private readonly Member currentMember;
+
+    public MemberViewModel MemberViewModel { get; }
+
+    public LibraryService LibraryService { get; }
 
     public LibraryData LibraryData { get; set; }
 
@@ -11,12 +16,64 @@ public class MainWindowViewModel : ViewModelBase
     {
         dataService = new JsonDataService();
 
-    
         LibraryData = dataService.LoadData();
+
+        currentMember = EnsureMemberExists();
+        LibraryService = new LibraryService(LibraryData);
+        MemberViewModel = new MemberViewModel(LibraryService, currentMember, SaveData);
     }
 
     public void SaveData()
     {
         dataService.SaveData(LibraryData);
+    }
+
+    private Member EnsureMemberExists()
+    {
+        if (LibraryData.Members.Count > 0)
+        {
+            return LibraryData.Members[0];
+        }
+
+        var defaultMember = new Member
+        {
+            Username = "member",
+            Password = "member"
+        };
+
+        LibraryData.Members.Add(defaultMember);
+
+        if (LibraryData.Books.Count == 0)
+        {
+            LibraryData.Books.AddRange(
+            [
+                new Book
+                {
+                    Title = "Clean Code",
+                    Author = "Robert C. Martin",
+                    ISBN = "9780132350884",
+                    Description = "A handbook of agile software craftsmanship.",
+                    IsBorrowed = false
+                },
+                new Book
+                {
+                    Title = "The Pragmatic Programmer",
+                    Author = "Andrew Hunt, David Thomas",
+                    ISBN = "9780135957059",
+                    Description = "Classic guide to software engineering practices.",
+                    IsBorrowed = false
+                },
+                new Book
+                {
+                    Title = "Refactoring",
+                    Author = "Martin Fowler",
+                    ISBN = "9780134757599",
+                    Description = "Improving the design of existing code.",
+                    IsBorrowed = false
+                }
+            ]);
+        }
+
+        return defaultMember;
     }
 }
