@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:LocalLibrary.ViewModels"
+        xmlns:m="using:LocalLibrary.Models"
+        x:Class="LocalLibrary.Views.LibrarianView"
+        Width="600" Height="400"
+        Title="Librarian Panel">
+
+    <StackPanel Margin="10" Spacing="10">
+
+        <!-- Título -->
+        <TextBlock Text="Library Catalog"
+                   FontSize="20"
+                   HorizontalAlignment="Center"/>
+
+        <!-- Lista de libros -->
+        <ListBox ItemsSource="{Binding Books}" Height="200" x:DataType="vm:LibrarianViewModel">
+            <ListBox.ItemTemplate>
+                <DataTemplate x:DataType="m:Book">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <TextBlock Text="{Binding Title}" Width="150"/>
+                        <TextBlock Text="{Binding Author}" Width="150"/>
+                        <TextBlock Text="{Binding ISBN}" Width="100"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- Botones -->
+        <StackPanel Orientation="Horizontal" Spacing="10">
+
+            <Button Content="Add Book" Click="AddBook_Click"/>
+            <Button Content="Delete Book" Click="DeleteBook_Click"/>
+
+        </StackPanel>
+
+    </StackPanel>
+
+</Window>

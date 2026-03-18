@@ -1,6 +1,7 @@
 {
   "Username": null,
   "Password": null,
+<<<<<<< Updated upstream
   "Books": [
     {
       "Title": "Clean Code",
@@ -46,4 +47,9 @@
       "BorrowDate": "2026-03-18T13:31:47.3209763Z"
     }
   ]
+=======
+  "Books": [],
+  "Members": [],
+  "Loans": []
+>>>>>>> Stashed changes
 }

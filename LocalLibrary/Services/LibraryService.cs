@@ -14,6 +14,9 @@ public class LibraryService
 		_libraryData = libraryData;
 	}
 
+	public List<Book> Books => _libraryData.Books;
+	public List<Loan> Loans => _libraryData.Loans;
+
 	public IReadOnlyList<Book> GetAvailableBooks()
 	{
 		return _libraryData.Books

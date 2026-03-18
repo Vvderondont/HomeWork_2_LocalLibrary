@@ -1417,31 +1417,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\valer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
       "projectName": "LocalLibrary",
-      "projectPath": "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
-      "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emmanuel\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\obj\\",
+      "projectPath": "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
+      "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\valer\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\valer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
