@@ -1,10 +1,8 @@
-<Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:LocalLibrary.ViewModels"
-        xmlns:m="using:LocalLibrary.Models"
-        x:Class="LocalLibrary.Views.LibrarianView"
-        Width="600" Height="400"
-        Title="Librarian Panel">
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:LocalLibrary.ViewModels"
+             xmlns:m="using:LocalLibrary.Models"
+             x:Class="LocalLibrary.Views.LibrarianView">
 
     <StackPanel Margin="10" Spacing="10">
 
@@ -36,4 +34,4 @@
 
     </StackPanel>
 
-</Window>
+</UserControl>

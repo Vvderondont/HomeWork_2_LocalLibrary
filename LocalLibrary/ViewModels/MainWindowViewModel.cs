@@ -5,6 +5,10 @@ public class MainWindowViewModel : ViewModelBase
 {
     private readonly JsonDataService dataService;
     private readonly Member currentMember;
+    private readonly AuthService authService;
+    private readonly CurrentUserService currentUserService;
+
+    public LoginViewModel LoginViewModel { get; }
 
     public MemberViewModel MemberViewModel { get; }
 
@@ -18,8 +22,11 @@ public class MainWindowViewModel : ViewModelBase
 
         LibraryData = dataService.LoadData();
 
+        currentUserService = new CurrentUserService();
+        authService = new AuthService(LibraryData);
         currentMember = EnsureMemberExists();
         LibraryService = new LibraryService(LibraryData);
+        LoginViewModel = new LoginViewModel(authService, currentUserService, SaveData);
         MemberViewModel = new MemberViewModel(LibraryService, currentMember, SaveData);
     }
 

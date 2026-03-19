@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ruOZCOQ0zzc=",
+  "dgSpecHash": "f7fBc5YrUEw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\stasi\\Documents\\GitHub\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
+  "projectFilePath": "C:\\Users\\stasi\\Documents\\GitHub\\A_OOP_HW_2\\HomeWork_2_LocalLibrary\\LocalLibrary\\LocalLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stasi\\.nuget\\packages\\avalonia\\11.3.12\\avalonia.11.3.12.nupkg.sha512",
     "C:\\Users\\stasi\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.25547.20250602\\avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",

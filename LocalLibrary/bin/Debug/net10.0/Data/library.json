@@ -1,7 +1,6 @@
 {
   "Username": null,
   "Password": null,
-<<<<<<< Updated upstream
   "Books": [
     {
       "Title": "Clean Code",
@@ -22,34 +21,20 @@
       "Author": "Martin Fowler",
       "ISBN": "9780134757599",
       "Description": "Improving the design of existing code.",
-      "IsBorrowed": true
+      "IsBorrowed": false
     }
   ],
   "Members": [
     {
       "Username": "member",
       "Password": "member",
-      "BorrowedBooks": [
-        {
-          "Title": "Refactoring",
-          "Author": "Martin Fowler",
-          "ISBN": "9780134757599",
-          "Description": "Improving the design of existing code.",
-          "IsBorrowed": true
-        }
-      ]
+      "BorrowedBooks": []
+    },
+    {
+      "Username": "gojo",
+      "Password": "gojo123",
+      "BorrowedBooks": []
     }
   ],
-  "Loans": [
-    {
-      "BookISBN": "9780134757599",
-      "MemberName": "member",
-      "BorrowDate": "2026-03-18T13:31:47.3209763Z"
-    }
-  ]
-=======
-  "Books": [],
-  "Members": [],
   "Loans": []
->>>>>>> Stashed changes
 }

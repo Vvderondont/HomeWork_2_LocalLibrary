@@ -1,7 +1,35 @@
 {
-  "Username": null,
-  "Password": null,
-  "Books": [],
-  "Members": [],
+  "Username": "librarian",
+  "Password": "librarian123",
+  "Books": [
+    {
+      "Title": "Clean Code",
+      "Author": "Robert C. Martin",
+      "ISBN": "9780132350884",
+      "Description": "A handbook of agile software craftsmanship.",
+      "IsBorrowed": false
+    },
+    {
+      "Title": "The Pragmatic Programmer",
+      "Author": "Andrew Hunt, David Thomas",
+      "ISBN": "9780135957059",
+      "Description": "Classic guide to software engineering practices.",
+      "IsBorrowed": false
+    },
+    {
+      "Title": "Refactoring",
+      "Author": "Martin Fowler",
+      "ISBN": "9780134757599",
+      "Description": "Improving the design of existing code.",
+      "IsBorrowed": false
+    }
+  ],
+  "Members": [
+    {
+      "Username": "gojo",
+      "Password": "gojo123",
+      "BorrowedBooks": []
+    }
+  ],
   "Loans": []
 }

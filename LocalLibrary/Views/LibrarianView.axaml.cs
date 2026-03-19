@@ -3,7 +3,7 @@ using Avalonia.Interactivity;
 
 namespace LocalLibrary.Views;
 
-public partial class LibrarianView : Window
+public partial class LibrarianView : UserControl
 {
     public LibrarianView()
     {

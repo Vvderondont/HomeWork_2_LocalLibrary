@@ -124,4 +124,16 @@ public class LibraryService
 
 		return true;
 	}
+	public void AddMember(string username, string password)
+{
+    var newMember = new Member
+    {
+        Username = username,
+        Password = password,
+        BorrowedBooks = new List<Book>()
+    };
+    
+    _libraryData.Members.Add(newMember);
+}
+
 }

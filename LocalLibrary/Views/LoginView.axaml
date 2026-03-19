@@ -1,0 +1,84 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:LocalLibrary.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="LocalLibrary.Views.LoginView"
+             x:DataType="vm:LoginViewModel">
+
+    <Design.DataContext>
+        <vm:LoginViewModel/>
+    </Design.DataContext>
+
+    <DockPanel>
+        <!-- Title -->
+        <TextBlock Text="{Binding LoginTitle}" 
+                   DockPanel.Dock="Top" 
+                   HorizontalAlignment="Center"
+                   Margin="0 10 0 20"
+                   FontSize="26" 
+                   FontWeight="Medium"/>
+
+        <!-- Input fields -->
+        <StackPanel DockPanel.Dock="Top" Margin="40" VerticalAlignment="Center">
+            <TextBlock Text="Username:" Margin="0 0 0 10"/>
+            <TextBox Text="{Binding Username}" Watermark="Enter username" Margin="0 0 0 15"/>
+            
+            <TextBlock Text="Password:" Margin="0 0 0 10"/>
+            <TextBox Text="{Binding Password}" Watermark="Enter password" 
+                     PasswordChar="*" Margin="0 0 0 20"/>
+            
+            <!-- Confirm Password (only show in register mode) -->
+            <TextBlock Text="Confirm Password:" 
+                       Margin="0 0 0 10"
+                       IsVisible="{Binding IsRegisterMode}"/>
+            <TextBox Text="{Binding ConfirmPassword}" 
+                     Watermark="Confirm password" 
+                     PasswordChar="*" 
+                     Margin="0 0 0 20"
+                     IsVisible="{Binding IsRegisterMode}"/>
+            
+            <!-- Error Message -->
+            <TextBlock Text="{Binding ErrorMessage}" 
+                       Foreground="Red" 
+                       HorizontalAlignment="Center" 
+                       FontSize="14"
+                       TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <!-- Buttons -->
+        <StackPanel DockPanel.Dock="Bottom">
+            <!-- Login Button (visible when not in register mode) -->
+            <Button Content="Login" 
+                    Command="{Binding LoginCommand}"
+                    HorizontalContentAlignment="Center" 
+                    VerticalContentAlignment="Center" 
+                    Margin="0 10 0 10" 
+                    Height="50" 
+                    FontSize="18"
+                    IsVisible="{Binding !IsRegisterMode}"/>
+            
+            <!-- Register Button (visible when in register mode) -->
+            <Button Content="Create Account" 
+                    Command="{Binding RegisterCommand}"
+                    HorizontalContentAlignment="Center" 
+                    VerticalContentAlignment="Center" 
+                    Margin="0 10 0 10" 
+                    Height="50" 
+                    FontSize="18"
+                    IsVisible="{Binding IsRegisterMode}"/>
+            
+            <!-- Toggle Button -->
+            <Button Content="{Binding ToggleButtonText}" 
+                    Command="{Binding ToggleRegisterModeCommand}"
+                    HorizontalContentAlignment="Center" 
+                    VerticalContentAlignment="Center" 
+                    Margin="0 0 0 20" 
+                    Height="40" 
+                    FontSize="14"
+                    Background="Gray"/>
+        </StackPanel>
+    </DockPanel>
+</UserControl>
+
