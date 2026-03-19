@@ -17,5 +17,6 @@
     </Design.DataContext>
 
     <views:MemberView DataContext="{Binding MemberViewModel}" />
+    <views:LoginView DataContext="{Binding LoginViewModel}"/>
 
 </Window>
