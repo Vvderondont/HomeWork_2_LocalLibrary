@@ -1,14 +1,7 @@
 {
-  "Username": "librarian",
-  "Password": "librarian123",
+  "Username": null,
+  "Password": null,
   "Books": [
-    {
-      "Title": "Clean Code",
-      "Author": "Robert C. Martin",
-      "ISBN": "9780132350884",
-      "Description": "A handbook of agile software craftsmanship.",
-      "IsBorrowed": false
-    },
     {
       "Title": "The Pragmatic Programmer",
       "Author": "Andrew Hunt, David Thomas",
@@ -24,12 +17,6 @@
       "IsBorrowed": false
     }
   ],
-  "Members": [
-    {
-      "Username": "gojo",
-      "Password": "gojo123",
-      "BorrowedBooks": []
-    }
-  ],
+  "Members": [],
   "Loans": []
 }

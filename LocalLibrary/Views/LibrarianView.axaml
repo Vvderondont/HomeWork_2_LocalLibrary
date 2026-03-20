@@ -12,7 +12,11 @@
                    HorizontalAlignment="Center"/>
 
         <!-- Lista de libros -->
-        <ListBox ItemsSource="{Binding Books}" Height="200" x:DataType="vm:LibrarianViewModel">
+        <ListBox x:Name="BooksListBox"
+                 ItemsSource="{Binding Books}"
+                 SelectedItem="{Binding SelectedBook, Mode=TwoWay}"
+                 Height="200"
+                 x:DataType="vm:LibrarianViewModel">
             <ListBox.ItemTemplate>
                 <DataTemplate x:DataType="m:Book">
                     <StackPanel Orientation="Horizontal" Spacing="10">
@@ -24,6 +28,13 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
+        <!-- Formulario para agregar -->
+        <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+            <TextBox x:Name="TitleTextBox" Grid.Column="0" Watermark="Title" />
+            <TextBox x:Name="AuthorTextBox" Grid.Column="1" Watermark="Author" />
+            <TextBox x:Name="IsbnTextBox" Grid.Column="2" Watermark="ISBN" />
+        </Grid>
+
         <!-- Botones -->
         <StackPanel Orientation="Horizontal" Spacing="10">
 
@@ -31,6 +42,11 @@
             <Button Content="Delete Book" Click="DeleteBook_Click"/>
 
         </StackPanel>
+
+        <TextBlock x:Name="StatusTextBlock"
+                   Text=""
+                   Foreground="Green"
+                   TextWrapping="Wrap"/>
 
     </StackPanel>
 

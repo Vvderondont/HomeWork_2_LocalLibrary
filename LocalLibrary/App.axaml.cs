@@ -4,6 +4,7 @@ using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
 using System.Linq;
 using Avalonia.Markup.Xaml;
+using LocalLibrary.Services;
 using LocalLibrary.ViewModels;
 using LocalLibrary.Views;
 
@@ -12,7 +13,6 @@ namespace LocalLibrary;
 public partial class App : Application
 {
     private MainWindowViewModel? _mainViewModel;
-
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);
@@ -23,14 +23,17 @@ public partial class App : Application
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
             DisableAvaloniaDataAnnotationValidation();
-
-            _mainViewModel = new MainWindowViewModel();
+            
+            var dataService = new JsonDataService();
+            var data = dataService.LoadData();
 
             desktop.MainWindow = new MainWindow
             {
-                DataContext = _mainViewModel,
+                Content = new LibrarianView
+                {
+                    DataContext = new LibrarianViewModel(data)
+                }
             };
-
             
             desktop.Exit += OnExit;//save automatetly
         }
@@ -40,7 +43,7 @@ public partial class App : Application
 
     private void OnExit(object? sender, ControlledApplicationLifetimeExitEventArgs e)
     {
-        _mainViewModel?.SaveData();
+        //_mainViewModel?.SaveData();
     }
 
     private void DisableAvaloniaDataAnnotationValidation()

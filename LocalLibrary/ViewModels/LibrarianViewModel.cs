@@ -1,6 +1,7 @@
 using LocalLibrary.Models;
 using LocalLibrary.Services;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 namespace LocalLibrary.ViewModels;
 
 public class LibrarianViewModel : ViewModelBase
@@ -8,7 +9,7 @@ public class LibrarianViewModel : ViewModelBase
     private readonly LibraryService libraryService;
     private readonly JsonDataService dataService;
 
-    public List<Book> Books { get; set; }
+    public ObservableCollection<Book> Books { get; set; }
 
     public LibrarianViewModel(LibraryData data)
     {   
@@ -17,7 +18,7 @@ public class LibrarianViewModel : ViewModelBase
         dataService = new JsonDataService();
 
         // expose to UI
-        Books = libraryService.Books;
+        Books = new ObservableCollection<Book>(libraryService.Books);
     }
 
     public void SaveData()
@@ -36,15 +37,29 @@ public class LibrarianViewModel : ViewModelBase
     public void AddBook(Book book)
     {
         libraryService.Books.Add(book);
+        Books.Add(book);
         SaveData();
+
 
     }
 
-    public void DelateBook(Book book)
+    public void DeleteBook(Book book)
     {
         libraryService.Books.Remove(book);
+        Books.Remove(book);
         SaveData();
     }
+
+    public Book? SelectedBook { get; set; }
+    public void DeleteBook()
+{
+    if (SelectedBook != null)
+    {
+        libraryService.Books.Remove(SelectedBook);
+        Books.Remove(SelectedBook);
+        SaveData();
+    }
+}
 
     public void BorrowBook(Member member, Book book)
     {
@@ -57,6 +72,8 @@ public class LibrarianViewModel : ViewModelBase
         libraryService.ReturnBook(member, book);
         SaveData();
     }
+
+    
 
     }
 
