@@ -1,6 +1,6 @@
 {
-  "Username": null,
-  "Password": null,
+  "Username": "admin",
+  "Password": "admin123",
   "Books": [
     {
       "Title": "Clean Code",
@@ -21,6 +21,13 @@
       "Author": "Martin Fowler",
       "ISBN": "9780134757599",
       "Description": "Improving the design of existing code.",
+      "IsBorrowed": false
+    },
+    {
+      "Title": "ttt",
+      "Author": "me",
+      "ISBN": "676767676767",
+      "Description": null,
       "IsBorrowed": false
     }
   ],

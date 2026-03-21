@@ -6,6 +6,7 @@ namespace LocalLibrary.Services;
 
 public class AuthService
 {
+    private const string LibrarianUsername = "admin";
     private readonly LibraryData _libraryData;
 
     public AuthService(LibraryData libraryData)
@@ -15,15 +16,16 @@ public class AuthService
 
     public (bool success, string role, object? user) ValidateLogin(string username, string password)
     {
-        // Check if credentials match librarian (top-level user in JSON)
-        if (username == _libraryData.Username && password == _libraryData.Password)
+        // Only admin is allowed as librarian account.
+        if (string.Equals(username, LibrarianUsername, System.StringComparison.OrdinalIgnoreCase) &&
+            string.Equals(password, _libraryData.Password, System.StringComparison.Ordinal))
         {
-            return (true, "Librarian", null); // Return null or create Librarian object if needed
+            return (true, "Librarian", null);
         }
 
-        // Check if credentials match any member
-        var member = _libraryData.Members?.FirstOrDefault(m => 
-            m.Username == username && m.Password == password);
+        var member = _libraryData.Members?.FirstOrDefault(m =>
+            string.Equals(m.Username, username, System.StringComparison.OrdinalIgnoreCase) &&
+            string.Equals(m.Password, password, System.StringComparison.Ordinal));
 
         if (member != null)
         {
@@ -35,15 +37,14 @@ public class AuthService
 
     public (bool success, string message) RegisterMember(string username, string password)
     {
-        // Check if username already exists (member)
-        var existingMember = _libraryData.Members?.FirstOrDefault(m => m.Username == username);
+        var existingMember = _libraryData.Members?.FirstOrDefault(m =>
+            string.Equals(m.Username, username, System.StringComparison.OrdinalIgnoreCase));
         if (existingMember != null)
         {
             return (false, "Username already exists. Please choose another.");
         }
 
-        // Check if username matches librarian
-        if (username == _libraryData.Username)
+        if (string.Equals(username, LibrarianUsername, System.StringComparison.OrdinalIgnoreCase))
         {
             return (false, "Username already exists. Please choose another.");
         }

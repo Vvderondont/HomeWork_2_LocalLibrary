@@ -18,6 +18,7 @@ public partial class CatalogViewModel : ViewModelBase
 	public ObservableCollection<Book> FilteredBooks { get; } = new();
 
 	[ObservableProperty]
+	[NotifyCanExecuteChangedFor(nameof(BorrowSelectedBookCommand))]
 	private Book? selectedBook;
 
 	[ObservableProperty]

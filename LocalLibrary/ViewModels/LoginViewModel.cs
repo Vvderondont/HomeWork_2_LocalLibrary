@@ -11,6 +11,7 @@ namespace LocalLibrary.ViewModels
         private readonly AuthService _authService;
         private readonly CurrentUserService _currentUserService;
         private readonly Action? _saveDataCallback;
+        private readonly Action<string, object?>? _onLoginSuccessCallback;
 
         [ObservableProperty]
         private string _username = "";
@@ -22,19 +23,39 @@ namespace LocalLibrary.ViewModels
         private string _errorMessage = "";
 
         [ObservableProperty]
+        private bool _isSuccessMessage;
+
+        [ObservableProperty]
         private bool _isRegisterMode = false;
 
         [ObservableProperty]
         private string _confirmPassword = "";
 
-        public string LoginTitle => IsRegisterMode ? "Register" : "Login";
-        public string ToggleButtonText => IsRegisterMode ? "Back to Login" : "Create Account";
+        public string LoginTitle => IsRegisterMode ? "Register" : "Sign In";
+        public string ToggleButtonText => IsRegisterMode ? "Login" : "Register";
+        public string MessageColor => IsSuccessMessage ? "Green" : "Red";
 
-        public LoginViewModel(AuthService authService, CurrentUserService currentUserService, Action? saveDataCallback = null)
+        public LoginViewModel(
+            AuthService authService,
+            CurrentUserService currentUserService,
+            Action? saveDataCallback = null,
+            Action<string, object?>? onLoginSuccessCallback = null)
         {
             _authService = authService;
             _currentUserService = currentUserService;
             _saveDataCallback = saveDataCallback;
+            _onLoginSuccessCallback = onLoginSuccessCallback;
+        }
+
+        partial void OnIsRegisterModeChanged(bool value)
+        {
+            OnPropertyChanged(nameof(LoginTitle));
+            OnPropertyChanged(nameof(ToggleButtonText));
+        }
+
+        partial void OnIsSuccessMessageChanged(bool value)
+        {
+            OnPropertyChanged(nameof(MessageColor));
         }
 
         [RelayCommand]
@@ -45,6 +66,7 @@ namespace LocalLibrary.ViewModels
             Password = "";
             ConfirmPassword = "";
             ErrorMessage = "";
+            IsSuccessMessage = false;
         }
 
         [RelayCommand]
@@ -53,6 +75,7 @@ namespace LocalLibrary.ViewModels
             if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(Password))
             {
                 ErrorMessage = "Please enter username and password";
+                IsSuccessMessage = false;
                 return;
             }
 
@@ -64,16 +87,15 @@ namespace LocalLibrary.ViewModels
                 _currentUserService.UserRole = role;
                 _currentUserService.UserDetails = user;
 
-                ErrorMessage = "Login successful! Navigating...";
+                ErrorMessage = "Login successful";
+                IsSuccessMessage = true;
                 await Task.Delay(1000);
-                
-                // TODO: Navigate based on role
-                // if (role == "Member") -> navigate to CatalogView
-                // if (role == "Librarian") -> navigate to LibrarianView
+                _onLoginSuccessCallback?.Invoke(role, user);
             }
             else
             {
                 ErrorMessage = "Invalid username or password";
+                IsSuccessMessage = false;
             }
         }
 
@@ -83,12 +105,14 @@ namespace LocalLibrary.ViewModels
             if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(Password))
             {
                 ErrorMessage = "Please enter username and password";
+                IsSuccessMessage = false;
                 return;
             }
 
             if (Password != ConfirmPassword)
             {
                 ErrorMessage = "Passwords do not match";
+                IsSuccessMessage = false;
                 return;
             }
 
@@ -97,6 +121,7 @@ namespace LocalLibrary.ViewModels
             if (success)
             {
                 ErrorMessage = message;
+                IsSuccessMessage = true;
                 // Save the new member to JSON
                 _saveDataCallback?.Invoke();
                 // Clear fields and switch back to login
@@ -109,6 +134,7 @@ namespace LocalLibrary.ViewModels
             else
             {
                 ErrorMessage = message;
+                IsSuccessMessage = false;
             }
         }
     }

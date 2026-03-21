@@ -20,6 +20,7 @@ public partial class MemberViewModel : ViewModelBase
 	public string MemberName => _member.Username ?? "Member";
 
 	[ObservableProperty]
+	[NotifyCanExecuteChangedFor(nameof(ReturnSelectedLoanCommand))]
 	private Book? selectedLoan;
 
 	[ObservableProperty]

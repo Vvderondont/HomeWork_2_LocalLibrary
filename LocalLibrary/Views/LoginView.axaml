@@ -41,7 +41,7 @@
             
             <!-- Error Message -->
             <TextBlock Text="{Binding ErrorMessage}" 
-                       Foreground="Red" 
+                       Foreground="{Binding MessageColor}" 
                        HorizontalAlignment="Center" 
                        FontSize="14"
                        TextWrapping="Wrap"/>
@@ -50,7 +50,7 @@
         <!-- Buttons -->
         <StackPanel DockPanel.Dock="Bottom">
             <!-- Login Button (visible when not in register mode) -->
-            <Button Content="Login" 
+                <Button Content="Sign In" 
                     Command="{Binding LoginCommand}"
                     HorizontalContentAlignment="Center" 
                     VerticalContentAlignment="Center" 

@@ -6,6 +6,8 @@ namespace LocalLibrary.Services;
 
 public class JsonDataService
 {
+    private const string LibrarianUsername = "admin";
+    private const string DefaultLibrarianPassword = "admin123";
     private readonly string filePath = "Data/library.json";
 
     public void SaveData(LibraryData data)
@@ -23,20 +25,39 @@ public class JsonDataService
     {
         if (!File.Exists(filePath))
         {
-            return new LibraryData();
+            return new LibraryData
+            {
+                Username = LibrarianUsername,
+                Password = DefaultLibrarianPassword
+            };
         }
 
         try
         {
             var json = File.ReadAllText(filePath);
 
-            var data = JsonSerializer.Deserialize<LibraryData>(json);
+            var data = JsonSerializer.Deserialize<LibraryData>(json) ?? new LibraryData();
 
-            return data ?? new LibraryData();
+            data.Username = LibrarianUsername;
+
+            if (string.IsNullOrWhiteSpace(data.Password))
+            {
+                data.Password = DefaultLibrarianPassword;
+            }
+
+            data.Books ??= new();
+            data.Members ??= new();
+            data.Loans ??= new();
+
+            return data;
         }
         catch
         {
-            return new LibraryData();
+            return new LibraryData
+            {
+                Username = LibrarianUsername,
+                Password = DefaultLibrarianPassword
+            };
         }
     }
 }

@@ -1,6 +1,6 @@
 {
-  "Username": null,
-  "Password": null,
+  "Username": "admin",
+  "Password": "admin123",
   "Books": [
     {
       "Title": "The Pragmatic Programmer",
