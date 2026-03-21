@@ -69,6 +69,16 @@ namespace LocalLibrary.ViewModels
             IsSuccessMessage = false;
         }
 
+        public void PrepareForNewLogin()
+        {
+            IsRegisterMode = false;
+            Username = string.Empty;
+            Password = string.Empty;
+            ConfirmPassword = string.Empty;
+            ErrorMessage = string.Empty;
+            IsSuccessMessage = false;
+        }
+
         [RelayCommand]
         private async Task Login()
         {

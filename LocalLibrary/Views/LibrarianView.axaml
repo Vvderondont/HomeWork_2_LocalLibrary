@@ -2,9 +2,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:LocalLibrary.ViewModels"
              xmlns:m="using:LocalLibrary.Models"
-             x:Class="LocalLibrary.Views.LibrarianView">
+             xmlns:views="using:LocalLibrary.Views"
+             x:Class="LocalLibrary.Views.LibrarianView"
+             x:DataType="vm:LibrarianViewModel">
 
     <StackPanel Margin="10" Spacing="10">
+
+        <views:LogoutButtonView DataContext="{Binding}"/>
 
         <!-- Título -->
         <TextBlock Text="Library Catalog"

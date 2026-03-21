@@ -11,10 +11,13 @@
 						 x:DataType="vm:MemberViewModel">
 
 	<Grid RowDefinitions="Auto,*,Auto" RowSpacing="10" Margin="12">
-		<StackPanel>
+		<Grid ColumnDefinitions="*,Auto">
+			<StackPanel Grid.Column="0">
 			<TextBlock Text="Member Portal" FontSize="26" FontWeight="Bold" />
 			<TextBlock Text="{Binding MemberName, StringFormat='Logged in as: {0}'}" />
-		</StackPanel>
+			</StackPanel>
+			<views:LogoutButtonView Grid.Column="1" DataContext="{Binding}"/>
+		</Grid>
 
 		<TabControl Grid.Row="1">
 			<TabItem Header="Library Catalog">

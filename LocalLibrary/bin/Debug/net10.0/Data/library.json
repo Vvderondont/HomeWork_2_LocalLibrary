@@ -28,6 +28,13 @@
       "Author": "me",
       "ISBN": "676767676767",
       "Description": null,
+      "IsBorrowed": true
+    },
+    {
+      "Title": "Why am I better than everybody?",
+      "Author": "Anonymous",
+      "ISBN": "696969696969",
+      "Description": null,
       "IsBorrowed": false
     }
   ],
@@ -40,8 +47,22 @@
     {
       "Username": "gojo",
       "Password": "gojo123",
-      "BorrowedBooks": []
+      "BorrowedBooks": [
+        {
+          "Title": "ttt",
+          "Author": "me",
+          "ISBN": "676767676767",
+          "Description": null,
+          "IsBorrowed": true
+        }
+      ]
     }
   ],
-  "Loans": []
+  "Loans": [
+    {
+      "BookISBN": "676767676767",
+      "MemberName": "gojo",
+      "BorrowDate": "2026-03-21T11:00:09.3702704Z"
+    }
+  ]
 }

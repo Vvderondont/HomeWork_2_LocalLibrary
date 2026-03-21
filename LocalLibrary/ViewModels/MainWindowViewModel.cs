@@ -37,8 +37,8 @@ public class MainWindowViewModel : ViewModelBase
         var bootstrapMember = EnsureMemberExists();
         LibraryService = new LibraryService(LibraryData);
         LoginViewModel = new LoginViewModel(authService, currentUserService, SaveData, OnLoginSuccess);
-        MemberViewModel = new MemberViewModel(LibraryService, bootstrapMember, SaveData);
-        LibrarianViewModel = new LibrarianViewModel(LibraryData);
+        MemberViewModel = new MemberViewModel(LibraryService, bootstrapMember, SaveData, OnLogout);
+        LibrarianViewModel = new LibrarianViewModel(LibraryData, OnLogout);
         CurrentViewModel = LoginViewModel;
     }
 
@@ -71,10 +71,19 @@ public class MainWindowViewModel : ViewModelBase
                 return;
             }
 
-            MemberViewModel = new MemberViewModel(LibraryService, member, SaveData);
+            MemberViewModel = new MemberViewModel(LibraryService, member, SaveData, OnLogout);
             OnPropertyChanged(nameof(MemberViewModel));
             CurrentViewModel = MemberViewModel;
         }
+    }
+
+    private void OnLogout()
+    {
+        currentUserService.LoggedInUsername = null;
+        currentUserService.UserRole = null;
+        currentUserService.UserDetails = null;
+        LoginViewModel.PrepareForNewLogin();
+        CurrentViewModel = LoginViewModel;
     }
 
     private Member EnsureMemberExists()

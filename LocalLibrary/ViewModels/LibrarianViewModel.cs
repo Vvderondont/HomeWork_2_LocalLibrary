@@ -1,21 +1,24 @@
 using LocalLibrary.Models;
 using LocalLibrary.Services;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 namespace LocalLibrary.ViewModels;
 
-public class LibrarianViewModel : ViewModelBase
+public class LibrarianViewModel : ViewModelBase, ILogoutHandler
 {
     private readonly LibraryService libraryService;
     private readonly JsonDataService dataService;
+    private readonly Action logout;
 
     public ObservableCollection<Book> Books { get; set; }
 
-    public LibrarianViewModel(LibraryData data)
+    public LibrarianViewModel(LibraryData data, Action logoutCallback)
     {   
         //services
         libraryService = new LibraryService(data);
         dataService = new JsonDataService();
+        logout = logoutCallback;
 
         // expose to UI
         Books = new ObservableCollection<Book>(libraryService.Books);
@@ -71,6 +74,11 @@ public class LibrarianViewModel : ViewModelBase
     {
         libraryService.ReturnBook(member, book);
         SaveData();
+    }
+
+    public void Logout()
+    {
+        logout();
     }
 
     

@@ -7,11 +7,12 @@ using LocalLibrary.Services;
 
 namespace LocalLibrary.ViewModels;
 
-public partial class MemberViewModel : ViewModelBase
+public partial class MemberViewModel : ViewModelBase, ILogoutHandler
 {
 	private readonly LibraryService _libraryService;
 	private readonly Member _member;
 	private readonly Action _saveData;
+	private readonly Action _logout;
 
 	public CatalogViewModel Catalog { get; }
 
@@ -26,11 +27,12 @@ public partial class MemberViewModel : ViewModelBase
 	[ObservableProperty]
 	private string statusMessage = string.Empty;
 
-	public MemberViewModel(LibraryService libraryService, Member member, Action saveData)
+	public MemberViewModel(LibraryService libraryService, Member member, Action saveData, Action logout)
 	{
 		_libraryService = libraryService;
 		_member = member;
 		_saveData = saveData;
+		_logout = logout;
 
 		Catalog = new CatalogViewModel(_libraryService, _member, _saveData, RefreshLoans);
 
@@ -78,5 +80,10 @@ public partial class MemberViewModel : ViewModelBase
 	private bool CanReturnSelectedLoan()
 	{
 		return SelectedLoan is not null;
+	}
+
+	public void Logout()
+	{
+		_logout();
 	}
 }
