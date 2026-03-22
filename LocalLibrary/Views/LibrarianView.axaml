@@ -32,6 +32,27 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
+        <TextBlock Text="Edit Selected Book"
+           FontSize="16"
+           Margin="0,10,0,0"/>
+
+        <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+        <TextBox Grid.Column="0"
+             Watermark="Title"
+             Text="{Binding SelectedBook.Title, Mode=TwoWay}"/>
+
+         <TextBox Grid.Column="1"
+             Watermark="Author"
+             Text="{Binding SelectedBook.Author, Mode=TwoWay}"/>
+
+         <TextBox Grid.Column="2"
+             Watermark="ISBN"
+             Text="{Binding SelectedBook.ISBN, Mode=TwoWay}"/>
+        </Grid>
+
+<Button Content="Save Changes"
+        Click="EditBook_Click"/>
+
         <!-- Formulario para agregar -->
         <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
             <TextBox x:Name="TitleTextBox" Grid.Column="0" Watermark="Title" />
@@ -51,6 +72,22 @@
                    Text=""
                    Foreground="Green"
                    TextWrapping="Wrap"/>
+
+        <TextBlock Text="Active Loans"
+           FontSize="16"
+           Margin="0,10,0,0"/>
+
+<ListBox ItemsSource="{Binding Loans}" Height="150">
+    <ListBox.ItemTemplate>
+        <DataTemplate x:DataType="m:Loan">
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="{Binding BookISBN}" Width="120"/>
+                <TextBlock Text="{Binding MemberName}" Width="120"/>
+                <TextBlock Text="{Binding BorrowDate}" Width="150"/>
+            </StackPanel>
+        </DataTemplate>
+    </ListBox.ItemTemplate>
+</ListBox>
 
     </StackPanel>
 

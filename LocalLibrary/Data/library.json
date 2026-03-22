@@ -11,12 +11,23 @@
     },
     {
       "Title": "Refactoring",
-      "Author": "Martin Fowler",
+      "Author": "Valeria Rondon",
       "ISBN": "9780134757599",
       "Description": "Improving the design of existing code.",
       "IsBorrowed": false
     }
   ],
-  "Members": [],
+  "Members": [
+    {
+      "Username": "member",
+      "Password": "member",
+      "BorrowedBooks": []
+    },
+    {
+      "Username": "Valeria",
+      "Password": "1234",
+      "BorrowedBooks": []
+    }
+  ],
   "Loans": []
 }

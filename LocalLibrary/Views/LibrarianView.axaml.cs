@@ -77,4 +77,20 @@ public partial class LibrarianView : UserControl
         StatusTextBlock.Text = message;
         StatusTextBlock.Foreground = isError ? Brushes.IndianRed : Brushes.ForestGreen;
     }
+    private void EditBook_Click(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is LibrarianViewModel vm)
+        {
+            if (vm.SelectedBook != null)
+            {
+                vm.EditBook();
+                SetStatus("Book changes saved successfully.", false);
+            }
+            else
+            {
+                SetStatus("Please select a book to edit.", true);
+            }
+        }
+    }
+
 }
