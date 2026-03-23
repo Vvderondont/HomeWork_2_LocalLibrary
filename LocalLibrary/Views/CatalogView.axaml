@@ -30,6 +30,7 @@
 								<TextBlock Text="{Binding Title}" FontWeight="SemiBold" />
 								<TextBlock Text="{Binding Author, StringFormat='Author: {0}'}" />
 								<TextBlock Text="{Binding ISBN, StringFormat='ISBN: {0}'}" />
+								<TextBlock Text="{Binding AverageRating, StringFormat='Average Rating: {0:F1}/5.0'}" />
 							</StackPanel>
 						</DataTemplate>
 					</ListBox.ItemTemplate>
@@ -42,6 +43,7 @@
 					<TextBlock Text="{Binding SelectedBook.Title, FallbackValue='Select a book'}" FontSize="16" FontWeight="SemiBold" />
 					<TextBlock Text="{Binding SelectedBook.Author, StringFormat='Author: {0}', FallbackValue='Author: -'}" />
 					<TextBlock Text="{Binding SelectedBook.ISBN, StringFormat='ISBN: {0}', FallbackValue='ISBN: -'}" />
+					<TextBlock Text="{Binding SelectedBook.AverageRating, StringFormat='Average Rating: {0:F1}/5.0', FallbackValue='Average Rating: 0.0/5.0'}" />
 					<TextBlock Text="{Binding SelectedBook.Description, FallbackValue='No description.'}" TextWrapping="Wrap" />
 				</StackPanel>
 			</Border>

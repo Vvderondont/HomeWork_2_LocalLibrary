@@ -84,6 +84,7 @@ public class LibraryService
 
 		_libraryData.Loans.Add(new Loan
 		{
+			BookTitle = book.Title,
 			BookISBN = book.ISBN,
 			MemberName = memberName,
 			BorrowDate = DateTime.UtcNow
@@ -125,15 +126,58 @@ public class LibraryService
 		return true;
 	}
 	public void AddMember(string username, string password)
-{
-    var newMember = new Member
-    {
-        Username = username,
-        Password = password,
-        BorrowedBooks = new List<Book>()
-    };
-    
-    _libraryData.Members.Add(newMember);
-}
+	{
+		var newMember = new Member
+		{
+			Username = username,
+			Password = password,
+			BorrowedBooks = new List<Book>()
+		};
+
+		_libraryData.Members.Add(newMember);
+	}
+
+	public bool RateBook(Member member, Book book, int rating)
+	{
+		if (rating < 1 || rating > 5)
+		{
+			return false;
+		}
+
+		if (!book.IsBorrowed || string.IsNullOrWhiteSpace(book.ISBN))
+		{
+			return false;
+		}
+
+		var memberName = member.Username ?? string.Empty;
+		var loanExists = _libraryData.Loans.Any(l =>
+			string.Equals(l.BookISBN, book.ISBN, StringComparison.OrdinalIgnoreCase) &&
+			string.Equals(l.MemberName, memberName, StringComparison.OrdinalIgnoreCase));
+
+		if (!loanExists)
+		{
+			return false;
+		}
+
+		var existingRating = book.Ratings.FirstOrDefault(r =>
+			string.Equals(r.MemberName, memberName, StringComparison.OrdinalIgnoreCase));
+
+		if (existingRating is not null)
+		{
+			existingRating.Rating = rating;
+		}
+		else
+		{
+			book.Ratings.Add(new BookRating
+			{
+				MemberName = memberName,
+				Rating = rating
+			});
+		}
+
+		book.NotifyRatingsChanged();
+
+		return true;
+	}
 
 }

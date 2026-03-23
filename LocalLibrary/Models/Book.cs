@@ -1,4 +1,7 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
 namespace LocalLibrary.Models;
 
@@ -10,6 +13,7 @@ public class Book : INotifyPropertyChanged
     private string? isbn;
     private string? description;
     private bool isBorrowed;
+    private List<BookRating> ratings = new();
 
     public string? Title
     {
@@ -74,6 +78,45 @@ public class Book : INotifyPropertyChanged
                 OnPropertyChanged();
             }
         }
+    }
+
+    public List<BookRating> Ratings
+    {
+        get => ratings;
+        set
+        {
+            if (ratings != value)
+            {
+                ratings = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public float AverageRating
+    {
+        get => ratings.Count > 0 
+            ? MathF.Round((float)ratings.Average(r => r.Rating), 1) 
+            : 0f;
+    }
+
+    public float GetMemberRating(string? memberName)
+    {
+        if (string.IsNullOrWhiteSpace(memberName))
+        {
+            return 0f;
+        }
+
+        var rating = ratings.FirstOrDefault(r =>
+            string.Equals(r.MemberName, memberName, StringComparison.OrdinalIgnoreCase));
+
+        return rating?.Rating ?? 0f;
+    }
+
+    public void NotifyRatingsChanged()
+    {
+        OnPropertyChanged(nameof(Ratings));
+        OnPropertyChanged(nameof(AverageRating));
     }
 
     public event PropertyChangedEventHandler? PropertyChanged;

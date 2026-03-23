@@ -25,10 +25,17 @@ public partial class LibrarianView : UserControl
         var title = TitleTextBox.Text?.Trim();
         var author = AuthorTextBox.Text?.Trim();
         var isbn = IsbnTextBox.Text?.Trim();
+        var description = DescriptionTextBox.Text?.Trim();
 
         if (string.IsNullOrWhiteSpace(title) || string.IsNullOrWhiteSpace(author) || string.IsNullOrWhiteSpace(isbn))
         {
             SetStatus("Please complete Title, Author, and ISBN to add a book.", true);
+            return;
+        }
+
+        if (!IsValidIsbn13(isbn))
+        {
+            SetStatus("ISBN must contain exactly 13 digits.", true);
             return;
         }
 
@@ -44,12 +51,14 @@ public partial class LibrarianView : UserControl
             Title = title,
             Author = author,
             ISBN = isbn,
+            Description = description,
             IsBorrowed = false
         });
 
         TitleTextBox.Text = string.Empty;
         AuthorTextBox.Text = string.Empty;
         IsbnTextBox.Text = string.Empty;
+        DescriptionTextBox.Text = string.Empty;
 
         SetStatus("Book added successfully.", false);
     }
@@ -83,6 +92,20 @@ public partial class LibrarianView : UserControl
         {
             if (vm.SelectedBook != null)
             {
+                var isbn = vm.SelectedBook.ISBN?.Trim();
+                if (!IsValidIsbn13(isbn))
+                {
+                    SetStatus("ISBN must contain exactly 13 digits.", true);
+                    return;
+                }
+
+                var duplicateCount = vm.Books.Count(b => string.Equals(b.ISBN, isbn, System.StringComparison.OrdinalIgnoreCase));
+                if (duplicateCount > 1)
+                {
+                    SetStatus("A book with that ISBN already exists.", true);
+                    return;
+                }
+
                 vm.EditBook();
                 SetStatus("Book changes saved successfully.", false);
             }
@@ -91,6 +114,16 @@ public partial class LibrarianView : UserControl
                 SetStatus("Please select a book to edit.", true);
             }
         }
+    }
+
+    private static bool IsValidIsbn13(string? isbn)
+    {
+        if (string.IsNullOrWhiteSpace(isbn) || isbn.Length != 13)
+        {
+            return false;
+        }
+
+        return isbn.All(char.IsDigit);
     }
 
 }

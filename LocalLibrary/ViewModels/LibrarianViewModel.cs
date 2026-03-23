@@ -9,35 +9,40 @@ namespace LocalLibrary.ViewModels;
 public class LibrarianViewModel : ViewModelBase, ILogoutHandler
 {
     private readonly LibraryService libraryService;
-    private readonly JsonDataService dataService;
+    private readonly Action saveData;
     private readonly Action logout;
 
     public ObservableCollection<Book> Books { get; set; }
     public ObservableCollection<Loan> Loans { get; set; }
 
-    public LibrarianViewModel(LibraryData data, Action logoutCallback)
+    public LibrarianViewModel(LibraryData data, Action saveDataCallback, Action logoutCallback)
     {
+        saveData = saveDataCallback;
+
         // services
         libraryService = new LibraryService(data);
-        dataService = new JsonDataService();
         logout = logoutCallback;
 
         // expose to UI
         Books = new ObservableCollection<Book>(libraryService.Books);
         Loans = new ObservableCollection<Loan>(libraryService.Loans);
+        EnsureLoanTitles();
     }
 
     public void SaveData()
     {
-        // create a object with current data
-        var data = new LibraryData
-        {
-            Books = libraryService.Books,
-            Loans = libraryService.Loans
-        };
+        // Save the full shared model so members/admin password are preserved.
+        saveData();
+    }
 
-        // save in JSON
-        dataService.SaveData(data);
+    public void RefreshLoans()
+    {
+        EnsureLoanTitles();
+        Loans.Clear();
+        foreach (var loan in libraryService.Loans)
+        {
+            Loans.Add(loan);
+        }
     }
 
     public void AddBook(Book book)
@@ -96,16 +101,24 @@ public class LibrarianViewModel : ViewModelBase, ILogoutHandler
         }
     }
 
+    public void EditBookDescription(Book book, string newDescription)
+    {
+        if (book != null)
+        {
+            var bookToUpdate = libraryService.Books.FirstOrDefault(b => b.ISBN == book.ISBN);
+            if (bookToUpdate != null)
+            {
+                bookToUpdate.Description = newDescription;
+                SaveData();
+            }
+        }
+    }
+
     public void BorrowBook(Member member, Book book)
     {
         libraryService.BorrowBook(member,book);
         SaveData();
-
-        Loans.Clear();
-        foreach (var loan in libraryService.Loans)
-        {
-            Loans.Add(loan);
-        }
+        RefreshLoans();
     }
 
     public void ReturnBook(Member member, Book book)
@@ -113,18 +126,29 @@ public class LibrarianViewModel : ViewModelBase, ILogoutHandler
         libraryService.ReturnBook(member, book);
         SaveData();
 
-        Loans.Clear();
-        foreach (var loan in libraryService.Loans)
-     {
-        Loans.Add(loan);
-     }
-
+          RefreshLoans();
     }
     
 
     public void Logout()
     {
         logout();
+    }
+
+    private void EnsureLoanTitles()
+    {
+        foreach (var loan in libraryService.Loans)
+        {
+            if (!string.IsNullOrWhiteSpace(loan.BookTitle))
+            {
+                continue;
+            }
+
+            var book = libraryService.Books.FirstOrDefault(b =>
+                string.Equals(b.ISBN, loan.BookISBN, StringComparison.OrdinalIgnoreCase));
+
+            loan.BookTitle = book?.Title ?? "Unknown title";
+        }
     }
 }
 

@@ -50,6 +50,12 @@
              Text="{Binding SelectedBook.ISBN, Mode=TwoWay}"/>
         </Grid>
 
+        <TextBox Watermark="Description"
+             Text="{Binding SelectedBook.Description, Mode=TwoWay}"
+             AcceptsReturn="True"
+             Height="70"
+             TextWrapping="Wrap"/>
+
 <Button Content="Save Changes"
         Click="EditBook_Click"/>
 
@@ -59,6 +65,12 @@
             <TextBox x:Name="AuthorTextBox" Grid.Column="1" Watermark="Author" />
             <TextBox x:Name="IsbnTextBox" Grid.Column="2" Watermark="ISBN" />
         </Grid>
+
+        <TextBox x:Name="DescriptionTextBox"
+                 Watermark="Description"
+                 AcceptsReturn="True"
+                 Height="70"
+                 TextWrapping="Wrap"/>
 
         <!-- Botones -->
         <StackPanel Orientation="Horizontal" Spacing="10">
@@ -81,6 +93,7 @@
     <ListBox.ItemTemplate>
         <DataTemplate x:DataType="m:Loan">
             <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="{Binding BookTitle}" Width="180"/>
                 <TextBlock Text="{Binding BookISBN}" Width="120"/>
                 <TextBlock Text="{Binding MemberName}" Width="120"/>
                 <TextBlock Text="{Binding BorrowDate}" Width="150"/>

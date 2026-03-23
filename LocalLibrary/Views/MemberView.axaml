@@ -25,7 +25,7 @@
 			</TabItem>
 
 			<TabItem Header="My Loans">
-				<Grid RowDefinitions="*,Auto,Auto" RowSpacing="10" Margin="8">
+				<Grid RowDefinitions="*,Auto,Auto,Auto" RowSpacing="10" Margin="8">
 					<Border BorderBrush="#D0D0D0" BorderThickness="1" CornerRadius="6" Padding="8">
 						<ListBox ItemsSource="{Binding MyLoans}"
 										 SelectedItem="{Binding SelectedLoan, Mode=TwoWay}">
@@ -35,6 +35,7 @@
 										<TextBlock Text="{Binding Title}" FontWeight="SemiBold" />
 										<TextBlock Text="{Binding Author, StringFormat='Author: {0}'}" />
 										<TextBlock Text="{Binding ISBN, StringFormat='ISBN: {0}'}" />
+										<TextBlock Text="{Binding AverageRating, StringFormat='Average Rating: {0:F1}/5.0'}" />
 										<TextBlock Text="{Binding Description}" TextWrapping="Wrap" />
 									</StackPanel>
 								</DataTemplate>
@@ -47,7 +48,17 @@
 						<Button Content="Refresh Loans" Command="{Binding RefreshLoansCommand}" />
 					</StackPanel>
 
-					<TextBlock Grid.Row="2" Text="{Binding StatusMessage}" />
+					<StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="8">
+						<TextBlock Text="Rate selected:" VerticalAlignment="Center" />
+						<Button Content="1" Command="{Binding RateSelectedLoanCommand}" CommandParameter="1" />
+						<Button Content="2" Command="{Binding RateSelectedLoanCommand}" CommandParameter="2" />
+						<Button Content="3" Command="{Binding RateSelectedLoanCommand}" CommandParameter="3" />
+						<Button Content="4" Command="{Binding RateSelectedLoanCommand}" CommandParameter="4" />
+						<Button Content="5" Command="{Binding RateSelectedLoanCommand}" CommandParameter="5" />
+						<TextBlock Text="{Binding MyRatingText}" VerticalAlignment="Center" Margin="12,0,0,0" />
+					</StackPanel>
+
+					<TextBlock Grid.Row="3" Text="{Binding StatusMessage}" />
 				</Grid>
 			</TabItem>
 		</TabControl>

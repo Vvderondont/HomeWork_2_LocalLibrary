@@ -3,18 +3,91 @@
   "Password": "admin123",
   "Books": [
     {
+      "Title": "Clean Code",
+      "Author": "Robert C. Martin",
+      "ISBN": "9780132350884",
+      "Description": "A handbook of agile software craftsmanship.",
+      "IsBorrowed": true,
+      "Ratings": [
+        {
+          "MemberName": "geto",
+          "Rating": 4
+        },
+        {
+          "MemberName": "gojo",
+          "Rating": 1
+        }
+      ],
+      "AverageRating": 2.5
+    },
+    {
       "Title": "The Pragmatic Programmer",
       "Author": "Andrew Hunt, David Thomas",
       "ISBN": "9780135957059",
       "Description": "Classic guide to software engineering practices.",
-      "IsBorrowed": false
+      "IsBorrowed": true,
+      "Ratings": [
+        {
+          "MemberName": "geto",
+          "Rating": 2
+        }
+      ],
+      "AverageRating": 2
     },
     {
       "Title": "Refactoring",
-      "Author": "Valeria Rondon",
-      "ISBN": "9780134757599",
+      "Author": "Martin ",
+      "ISBN": "9783284857844",
       "Description": "Improving the design of existing code.",
-      "IsBorrowed": false
+      "IsBorrowed": false,
+      "Ratings": [
+        {
+          "MemberName": "gojo",
+          "Rating": 1
+        },
+        {
+          "MemberName": "geto",
+          "Rating": 5
+        }
+      ],
+      "AverageRating": 3
+    },
+    {
+      "Title": "ttt",
+      "Author": "me",
+      "ISBN": "6767676767676",
+      "Description": null,
+      "IsBorrowed": false,
+      "Ratings": [
+        {
+          "MemberName": "gojo",
+          "Rating": 4
+        }
+      ],
+      "AverageRating": 4
+    },
+    {
+      "Title": "Why am I better than everybody?",
+      "Author": "Anonymous",
+      "ISBN": "6969696969696",
+      "Description": "brr",
+      "IsBorrowed": true,
+      "Ratings": [
+        {
+          "MemberName": "gojo",
+          "Rating": 5
+        }
+      ],
+      "AverageRating": 5
+    },
+    {
+      "Title": "The Bible",
+      "Author": "Joe Biden",
+      "ISBN": "7777777777777",
+      "Description": "bomba",
+      "IsBorrowed": false,
+      "Ratings": [],
+      "AverageRating": 0
     }
   ],
   "Members": [
@@ -24,10 +97,77 @@
       "BorrowedBooks": []
     },
     {
-      "Username": "Valeria",
-      "Password": "1234",
-      "BorrowedBooks": []
+      "Username": "gojo",
+      "Password": "gojo123",
+      "BorrowedBooks": [
+        {
+          "Title": "Why am I better than everybody?",
+          "Author": "Anonymous",
+          "ISBN": "6969696969696",
+          "Description": null,
+          "IsBorrowed": true,
+          "Ratings": [],
+          "AverageRating": 0
+        },
+        {
+          "Title": "Clean Code",
+          "Author": "Robert C. Martin",
+          "ISBN": "9780132350884",
+          "Description": "A handbook of agile software craftsmanship.",
+          "IsBorrowed": true,
+          "Ratings": [
+            {
+              "MemberName": "geto",
+              "Rating": 4
+            },
+            {
+              "MemberName": "gojo",
+              "Rating": 1
+            }
+          ],
+          "AverageRating": 2.5
+        }
+      ]
+    },
+    {
+      "Username": "geto",
+      "Password": "geto123",
+      "BorrowedBooks": [
+        {
+          "Title": "The Pragmatic Programmer",
+          "Author": "Andrew Hunt, David Thomas",
+          "ISBN": "9780135957059",
+          "Description": "Classic guide to software engineering practices.",
+          "IsBorrowed": true,
+          "Ratings": [
+            {
+              "MemberName": "geto",
+              "Rating": 2
+            }
+          ],
+          "AverageRating": 2
+        }
+      ]
     }
   ],
-  "Loans": []
+  "Loans": [
+    {
+      "BookTitle": "Why am I better than everybody?",
+      "BookISBN": "6969696969696",
+      "MemberName": "gojo",
+      "BorrowDate": "2026-03-22T21:35:18.1617656Z"
+    },
+    {
+      "BookTitle": "The Pragmatic Programmer",
+      "BookISBN": "9780135957059",
+      "MemberName": "geto",
+      "BorrowDate": "2026-03-22T23:36:42.2532919Z"
+    },
+    {
+      "BookTitle": "Clean Code",
+      "BookISBN": "9780132350884",
+      "MemberName": "gojo",
+      "BorrowDate": "2026-03-23T00:39:41.0305154Z"
+    }
+  ]
 }

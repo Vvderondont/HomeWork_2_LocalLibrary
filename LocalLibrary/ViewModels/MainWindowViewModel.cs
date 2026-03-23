@@ -12,7 +12,7 @@ public class MainWindowViewModel : ViewModelBase
 
     public LoginViewModel LoginViewModel { get; }
 
-    public MemberViewModel MemberViewModel { get; private set; }
+    public MemberViewModel? MemberViewModel { get; private set; }
 
     public LibrarianViewModel LibrarianViewModel { get; }
 
@@ -34,11 +34,10 @@ public class MainWindowViewModel : ViewModelBase
 
         currentUserService = new CurrentUserService();
         authService = new AuthService(LibraryData);
-        var bootstrapMember = EnsureMemberExists();
         LibraryService = new LibraryService(LibraryData);
+        
         LoginViewModel = new LoginViewModel(authService, currentUserService, SaveData, OnLoginSuccess);
-        MemberViewModel = new MemberViewModel(LibraryService, bootstrapMember, SaveData, OnLogout);
-        LibrarianViewModel = new LibrarianViewModel(LibraryData, OnLogout);
+        LibrarianViewModel = new LibrarianViewModel(LibraryData, SaveData, OnLogout);
         CurrentViewModel = LoginViewModel;
     }
 
@@ -51,6 +50,7 @@ public class MainWindowViewModel : ViewModelBase
     {
         if (role == "Librarian")
         {
+            LibrarianViewModel.RefreshLoans();
             CurrentViewModel = LibrarianViewModel;
             return;
         }
@@ -84,54 +84,5 @@ public class MainWindowViewModel : ViewModelBase
         currentUserService.UserDetails = null;
         LoginViewModel.PrepareForNewLogin();
         CurrentViewModel = LoginViewModel;
-    }
-
-    private Member EnsureMemberExists()
-    {
-        if (LibraryData.Members.Count > 0)
-        {
-            return LibraryData.Members[0];
-        }
-
-        var defaultMember = new Member
-        {
-            Username = "member",
-            Password = "member"
-        };
-
-        LibraryData.Members.Add(defaultMember);
-
-        if (LibraryData.Books.Count == 0)
-        {
-            LibraryData.Books.AddRange(
-            [
-                new Book
-                {
-                    Title = "Clean Code",
-                    Author = "Robert C. Martin",
-                    ISBN = "9780132350884",
-                    Description = "A handbook of agile software craftsmanship.",
-                    IsBorrowed = false
-                },
-                new Book
-                {
-                    Title = "The Pragmatic Programmer",
-                    Author = "Andrew Hunt, David Thomas",
-                    ISBN = "9780135957059",
-                    Description = "Classic guide to software engineering practices.",
-                    IsBorrowed = false
-                },
-                new Book
-                {
-                    Title = "Refactoring",
-                    Author = "Martin Fowler",
-                    ISBN = "9780134757599",
-                    Description = "Improving the design of existing code.",
-                    IsBorrowed = false
-                }
-            ]);
-        }
-
-        return defaultMember;
     }
 }

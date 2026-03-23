@@ -95,6 +95,33 @@ public partial class CatalogViewModel : ViewModelBase
 		return SelectedBook is not null && !SelectedBook.IsBorrowed;
 	}
 
+	[RelayCommand]
+	public void RateBook(int rating)
+	{
+		if (SelectedBook is null)
+		{
+			StatusMessage = "Select a book to rate.";
+			return;
+		}
+
+		if (rating < 1 || rating > 5)
+		{
+			StatusMessage = "Rating must be between 1 and 5 stars.";
+			return;
+		}
+
+		var success = _libraryService.RateBook(_member, SelectedBook, rating);
+
+		if (!success)
+		{
+			StatusMessage = "Book cannot be rated. Only borrowed books can be rated.";
+			return;
+		}
+
+		_saveData();
+		StatusMessage = $"Rated {SelectedBook.Title} with {rating} star(s). Average: {SelectedBook.AverageRating}";
+	}
+
 	private void ApplySearchFilter()
 	{
 		FilteredBooks.Clear();
