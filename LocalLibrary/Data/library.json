@@ -97,6 +97,11 @@
       "BorrowedBooks": []
     },
     {
+      "Username": "Valeria",
+      "Password": "1234",
+      "BorrowedBooks": []
+    },
+    {
       "Username": "gojo",
       "Password": "gojo123",
       "BorrowedBooks": [

@@ -1,6 +1,7 @@
 using System.Text.Json;
 using LocalLibrary.Models;
 using System.IO;
+using System;
 
 namespace LocalLibrary.Services;
 
@@ -8,7 +9,12 @@ public class JsonDataService
 {
     private const string LibrarianUsername = "admin";
     private const string DefaultLibrarianPassword = "admin123";
-    private readonly string filePath = "Data/library.json";
+    private readonly string filePath;
+
+    public JsonDataService()
+    {
+        filePath = ResolveDataFilePath();
+    }
 
     public void SaveData(LibraryData data)
     {
@@ -17,7 +23,7 @@ public class JsonDataService
             WriteIndented = true
         });
 
-        Directory.CreateDirectory("Data");
+        Directory.CreateDirectory(Path.GetDirectoryName(filePath)!);
         File.WriteAllText(filePath, json);
     }
 
@@ -59,5 +65,35 @@ public class JsonDataService
                 Password = DefaultLibrarianPassword
             };
         }
+    }
+
+    private static string ResolveDataFilePath()
+    {
+        const string relativeDataFilePath = "Data/library.json";
+
+        var projectDirectory = FindProjectDirectory(AppContext.BaseDirectory);
+        if (projectDirectory is not null)
+        {
+            return Path.Combine(projectDirectory.FullName, relativeDataFilePath);
+        }
+
+        return Path.Combine(AppContext.BaseDirectory, relativeDataFilePath);
+    }
+
+    private static DirectoryInfo? FindProjectDirectory(string startDirectory)
+    {
+        var current = new DirectoryInfo(startDirectory);
+
+        while (current is not null)
+        {
+            if (current.GetFiles("*.csproj").Length > 0)
+            {
+                return current;
+            }
+
+            current = current.Parent;
+        }
+
+        return null;
     }
 }
