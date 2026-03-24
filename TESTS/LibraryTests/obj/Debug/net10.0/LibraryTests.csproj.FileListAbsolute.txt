@@ -1,0 +1,321 @@
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.csproj.AssemblyReference.cache
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.AssemblyInfoInputs.cache
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.AssemblyInfo.cs
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.csproj.CoreCompileInputs.cache
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_LibraryTests
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\CoverletSourceRootsMapping_LibraryTests
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\testhost.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\xunit.abstractions.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.deps.json
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.runtimeconfig.json
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.exe
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\testhost.exe
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.deps.json
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.runtimeconfig.json
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.pdb
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Base.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Controls.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Dialogs.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Markup.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Metal.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.MicroCom.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.OpenGL.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Vulkan.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Desktop.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Native.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Skia.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Win32.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.X11.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\HarfBuzzSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\MicroCom.Runtime.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Newtonsoft.Json.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\SkiaSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\xunit.assert.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\xunit.core.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\xunit.execution.dotnet.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.pdb
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryT.9F9653AC.Up2Date
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\refint\LibraryTests.dll
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.pdb
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.genruntimeconfig.cache
+c:\Users\valer\OneDrive - Syddansk Universitet\UNIT\SECOND_SEMESTER\ADVACE_PROGRAMMING\TESTS\LibraryTests\obj\Debug\net10.0\ref\LibraryTests.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_LibraryTests
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\CoverletSourceRootsMapping_LibraryTests
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\testhost.exe
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\testhost.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\xunit.abstractions.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\xunit.runner.visualstudio.testadapter.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.deps.json
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.runtimeconfig.json
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.exe
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.deps.json
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.runtimeconfig.json
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LibraryTests.pdb
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Base.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Controls.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Dialogs.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Markup.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Metal.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.MicroCom.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.OpenGL.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Vulkan.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Desktop.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Diagnostics.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Native.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Skia.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.Win32.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Avalonia.X11.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\HarfBuzzSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\MicroCom.Runtime.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.CoreUtilities.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Newtonsoft.Json.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\SkiaSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\xunit.assert.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\xunit.core.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\xunit.execution.dotnet.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\bin\Debug\net10.0\LocalLibrary.pdb
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.csproj.AssemblyReference.cache
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.AssemblyInfoInputs.cache
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.AssemblyInfo.cs
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.csproj.CoreCompileInputs.cache
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.sourcelink.json
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryT.9F9653AC.Up2Date
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\refint\LibraryTests.dll
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.pdb
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\LibraryTests.genruntimeconfig.cache
+c:\Users\valer\Documents\GitHub\HomeWork_2_LocalLibrary\TESTS\LibraryTests\obj\Debug\net10.0\ref\LibraryTests.dll
