@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalLibrary", "LocalLibrary.csproj", "{D9F7CB9A-2508-3B0E-E77B-240761AC18EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalLibrary.Tests", "..\TESTS\LocalLibrary.Tests\LocalLibrary.Tests.csproj", "{0E43BD78-CC2B-4BDC-A1DC-72C7B741217B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalLibrary.Tests", "..\LocalLibrary.Tests\LocalLibrary.Tests.csproj", "{0E43BD78-CC2B-4BDC-A1DC-72C7B741217B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

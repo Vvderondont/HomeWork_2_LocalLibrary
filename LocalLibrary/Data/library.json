@@ -88,6 +88,15 @@
       "IsBorrowed": false,
       "Ratings": [],
       "AverageRating": 0
+    },
+    {
+      "Title": "Harry Potter",
+      "Author": "Mr Beast",
+      "ISBN": "9999999999999",
+      "Description": "hi",
+      "IsBorrowed": false,
+      "Ratings": [],
+      "AverageRating": 0
     }
   ],
   "Members": [

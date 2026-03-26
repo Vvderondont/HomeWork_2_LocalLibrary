@@ -22,19 +22,24 @@
 
 		<Grid Grid.Row="2" ColumnDefinitions="2*,3*" ColumnSpacing="12">
 			<Border BorderBrush="#D0D0D0" BorderThickness="1" CornerRadius="6" Padding="8">
-				<ListBox ItemsSource="{Binding FilteredBooks}"
+				<StackPanel Spacing="6">
+					<TextBlock Text="{Binding EmptyStateMessage}"
+							   IsVisible="{Binding ShowEmptyState}"
+							   Foreground="#666666" />
+					<ListBox ItemsSource="{Binding FilteredBooks}"
 								 SelectedItem="{Binding SelectedBook, Mode=TwoWay}">
-					<ListBox.ItemTemplate>
-						<DataTemplate>
-							<StackPanel Margin="0,0,0,8">
-								<TextBlock Text="{Binding Title}" FontWeight="SemiBold" />
-								<TextBlock Text="{Binding Author, StringFormat='Author: {0}'}" />
-								<TextBlock Text="{Binding ISBN, StringFormat='ISBN: {0}'}" />
-								<TextBlock Text="{Binding AverageRating, StringFormat='Average Rating: {0:F1}/5.0'}" />
-							</StackPanel>
-						</DataTemplate>
-					</ListBox.ItemTemplate>
-				</ListBox>
+						<ListBox.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Margin="0,0,0,8">
+									<TextBlock Text="{Binding Title}" FontWeight="SemiBold" />
+									<TextBlock Text="{Binding Author, StringFormat='Author: {0}'}" />
+									<TextBlock Text="{Binding ISBN, StringFormat='ISBN: {0}'}" />
+									<TextBlock Text="{Binding AverageRating, StringFormat='Average Rating: {0:F1}/5.0'}" />
+								</StackPanel>
+							</DataTemplate>
+						</ListBox.ItemTemplate>
+					</ListBox>
+				</StackPanel>
 			</Border>
 
 			<Border Grid.Column="1" BorderBrush="#D0D0D0" BorderThickness="1" CornerRadius="6" Padding="12">

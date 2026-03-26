@@ -27,6 +27,12 @@ public partial class CatalogViewModel : ViewModelBase
 	[ObservableProperty]
 	private string statusMessage = string.Empty;
 
+	[ObservableProperty]
+	private bool showEmptyState;
+
+	[ObservableProperty]
+	private string emptyStateMessage = "No books available in the catalog.";
+
 	public CatalogViewModel(
 		LibraryService libraryService,
 		Member member,
@@ -132,5 +138,10 @@ public partial class CatalogViewModel : ViewModelBase
 		{
 			FilteredBooks.Add(book);
 		}
+
+		ShowEmptyState = FilteredBooks.Count == 0;
+		EmptyStateMessage = string.IsNullOrWhiteSpace(SearchText)
+			? "No books available in the catalog."
+			: "No books match your search.";
 	}
 }

@@ -15,9 +15,19 @@
                    FontSize="20"
                    HorizontalAlignment="Center"/>
 
+        <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+            <TextBox Grid.Column="0"
+                     Watermark="Search by title, author, or ISBN"
+                     Text="{Binding SearchText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <Button Grid.Column="1" Content="Clear" Command="{Binding ClearSearchCommand}"/>
+        </Grid>
+
         <!-- Lista de libros -->
+        <TextBlock Text="{Binding EmptyStateMessage}"
+               IsVisible="{Binding ShowEmptyState}"
+               Foreground="#666666"/>
         <ListBox x:Name="BooksListBox"
-                 ItemsSource="{Binding Books}"
+                 ItemsSource="{Binding FilteredBooks}"
                  SelectedItem="{Binding SelectedBook, Mode=TwoWay}"
                  Height="200"
                  x:DataType="vm:LibrarianViewModel">
@@ -57,17 +67,18 @@
              TextWrapping="Wrap"/>
 
 <Button Content="Save Changes"
-        Click="EditBook_Click"/>
+    Command="{Binding EditSelectedBookCommand}"/>
 
         <!-- Formulario para agregar -->
         <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
-            <TextBox x:Name="TitleTextBox" Grid.Column="0" Watermark="Title" />
-            <TextBox x:Name="AuthorTextBox" Grid.Column="1" Watermark="Author" />
-            <TextBox x:Name="IsbnTextBox" Grid.Column="2" Watermark="ISBN" />
+            <TextBox Grid.Column="0" Watermark="Title" Text="{Binding NewBookTitle, Mode=TwoWay}" />
+            <TextBox Grid.Column="1" Watermark="Author" Text="{Binding NewBookAuthor, Mode=TwoWay}" />
+            <TextBox Grid.Column="2" Watermark="ISBN" Text="{Binding NewBookIsbn, Mode=TwoWay}" />
         </Grid>
 
-        <TextBox x:Name="DescriptionTextBox"
+        <TextBox
                  Watermark="Description"
+                 Text="{Binding NewBookDescription, Mode=TwoWay}"
                  AcceptsReturn="True"
                  Height="70"
                  TextWrapping="Wrap"/>
@@ -75,14 +86,14 @@
         <!-- Botones -->
         <StackPanel Orientation="Horizontal" Spacing="10">
 
-            <Button Content="Add Book" Click="AddBook_Click"/>
-            <Button Content="Delete Book" Click="DeleteBook_Click"/>
+            <Button Content="Add Book" Command="{Binding AddBookCommand}"/>
+            <Button Content="Delete Book" Command="{Binding DeleteSelectedBookCommand}"/>
 
         </StackPanel>
 
         <TextBlock x:Name="StatusTextBlock"
-                   Text=""
-                   Foreground="Green"
+                   Text="{Binding StatusMessage}"
+                   Foreground="{Binding StatusColor}"
                    TextWrapping="Wrap"/>
 
         <TextBlock Text="Active Loans"

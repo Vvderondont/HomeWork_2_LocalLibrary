@@ -1,0 +1,25 @@
+Manual Tests:
+
+1) Borrowing Test: Pass - Borrowed an available book as member and it showed up in My Loans.
+2) Return Book Test: Pass - Returned the book and it disappeared from My Loans and became available again.
+3) Add Book Test: Pass - Added a new book as librarian and could see it in both librarian and member catalogs.
+4) Delete Book Test: Pass - Deleted a test book and it was removed from all catalog views.
+5) Active Loan Tracking Test: Pass - In Active Loans, the librarian could see the correct member for the borrowed book.
+6) Login Test: Pass - Admin went to librarian view, member went to member view, and wrong password showed an error.
+7) Search/Filter Test: Pass - Searching by part of title/author filtered the list correctly.
+8) Data Persistence Test: Pass - After restarting the app, added/borrowed data was still there and matched the JSON file.
+
+Summary
+Total Passed: 8
+Total Failed: 0
+
+
+SOLID used:
+- SRP: We kept responsibilities separated (services for logic, ViewModels for UI state/commands).
+-- DIP: Partially. ViewModels mostly depend on concrete classes (like LibraryService/AuthService), not abstractions.
+
+Design Pattern:
+- We did not intentionally implement a specific formal design pattern.
+- We mainly used MVVM because it is Avalonia's standard structure.
+
+
